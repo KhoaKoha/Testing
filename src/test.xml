@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+ 
+  
+  
+  <test name="Test">
+  <parameter name ="browser" value ="chrome"> </parameter>
+    <classes>
+   <class name="lambada.MultiBrowser"/>
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

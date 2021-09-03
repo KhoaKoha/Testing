@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-03T11:00:57Z" name="Suite" finished-at="2021-09-03T11:01:08Z" duration-ms="11196">
+    <groups>
+    </groups>
+    <test started-at="2021-09-03T11:00:57Z" name="Test" finished-at="2021-09-03T11:01:08Z" duration-ms="11196">
+      <class name="lambada.MultiBrowser">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:lambada.MultiBrowser@37ceb1df]" started-at="2021-09-03T11:00:57Z" name="beforeTest" finished-at="2021-09-03T11:00:59Z" duration-ms="2126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="getURL_VerifyLogin()[pri:0, instance:lambada.MultiBrowser@37ceb1df]" started-at="2021-09-03T11:00:59Z" name="getURL_VerifyLogin" finished-at="2021-09-03T11:01:08Z" duration-ms="8968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getURL_VerifyLogin -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:lambada.MultiBrowser@37ceb1df]" started-at="2021-09-03T11:01:08Z" name="afterTest" finished-at="2021-09-03T11:01:08Z" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- lambada.MultiBrowser -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
